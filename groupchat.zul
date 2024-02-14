@@ -1,0 +1,22 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="new page title" border="normal" height="100%" apply="com.chat.Groupchat">
+<borderlayout height="100%">
+<center hflex="1">
+<vbox id="inf"/>
+
+</center>
+<south>
+<hbox>
+<inputgroup>Username<textbox id="uname"/>
+
+
+</inputgroup>
+<inputgroup>say<textbox id="t1"/>
+</inputgroup>
+<button id="b1">send</button>
+</hbox>
+</south>
+</borderlayout>
+</window>
+</zk>
